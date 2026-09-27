@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./reset.css');
+
+.container {
+    margin-inline: auto;
+    max-width: 1200px;
+    padding-inline: 15px;
+}
+
+.link {
+    color: blue;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(184, 179, 179);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 15px;
+    padding-inline: 15px;
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo__link {
+    color: rgb(143, 20, 143);
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.logo__img {
+    width: 60px;
+    height: 50px;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav__item {}
+
+.nav__link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.main {
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    padding-block: 15px;
+    padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room {}
+
+.room__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.room__item {
+    background-color: rgb(184, 179, 179);
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.room__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+    word-break: normal;
+}
+
+.room__name {
+    color: purple;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.room__describe {
+    overflow-wrap: break-word;
+}
+
+.room-list-title {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add-room-title {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add-room-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.add-room-form__input {
+    background-color: rgb(184, 179, 179);
+    font-family: 'Roboto';
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.message {}
+
+.message__list {}
+
+.message__item {}
+
+.message__username {}
+
+.message__content {}
+
+.add-message-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 5px;
+}
+
+.add-message-form__input {
+    background-color: rgb(184, 179, 179);
+    font-family: 'Roboto';
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+
+.message__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.message__item {
+    background-color: rgb(184, 179, 179);
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
